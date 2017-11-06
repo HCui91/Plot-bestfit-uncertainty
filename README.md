@@ -7,14 +7,15 @@ This code is used as plot tool in my second year physics lab period. It can impo
 ## II. Theory
 
 I used method of least squares[1] in a linear function of x and y,
-$$y=mx+c$$
+y=mx+c
 where m is the gradient and c is the y-intercept.
-$$c=\frac{\sum_i{x^2_i}\sum_iy_i-\sum_i{x_i}\sum_ix_iy_i}{\Delta}$$
 
-$$m=\frac{N\sum_ix_iy_i\sum_ix_i\sum_iy_i}{\Delta}$$
+![This is the rendered form of the equation. You can not edit this directly. Right click will give you the option to save the image, and in most browsers you can drag the image onto your desktop or another program.](https://latex.codecogs.com/gif.latex?%5Cbg_white%20c%3D%5Cfrac%7B%5Csum_i%7Bx%5E2_i%7D%5Csum_iy_i-%5Csum_i%7Bx_i%7D%5Csum_ix_iy_i%7D%7B%5CDelta%7D)
+
+![](https://latex.codecogs.com/gif.latex?%5Cbg_white%20m%3D%5Cfrac%7BN%5Csum_ix_iy_i%5Csum_ix_i%5Csum_iy_i%7D%7B%5CDelta%7D)
 
 with the uncertainty in the intercept and the gradient,
-$$\alpha_c = \alpha_{CU}\sqrt{\frac{\sum_ix_i^2}{\Delta}}$$
+$$\alpha_c = \alpha_{CU}\sqrt{\frac{\sum_ix_i^2}{\Delta}}​$$
 
 $$\alpha_m = \alpha_{CU}\sqrt{\frac{N}{\Delta}}$$
 
