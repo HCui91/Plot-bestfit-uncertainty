@@ -31,3 +31,25 @@ and ![](https://latex.codecogs.com/gif.latex?%5Cbg_white%20%5Calpha_%7BCU%7D) is
 ![](https://latex.codecogs.com/gif.latex?%5Cbg_white%20%5Calpha_%7BCU%7D%20%3D%20%5Csqrt%7B%5Cfrac%7B1%7D%7BN-2%7D%5Csum_i%28y_i-mx_i-c%29%5E2%7D)
 
 Ref:[1]I. G.Hughes and T. P.A.Hase, *Measurements and their Uncertainties A practical guide to modern error analysis*, 1st ed. Oxford: Oxford University Press, 2010, p. 58.
+
+## III. Demo
+
+The demo data set was shown as file _demo.csv_ with uncertainties on both x and y axis (No unit consideration).
+
+| X value | Uncertainty of X | Y value | Uncertainty of Y |
+| ------- | ---------------- | ------- | ---------------- |
+| 1       | 0.05             | 2       | 0.1              |
+| 2       | 0.05             | 4       | 0.1              |
+| 3       | 0.05             | 6       | 0.1              |
+| 4       | 0.05             | 8       | 0.1              |
+| 5       | 0.05             | 10      | 0.1              |
+| 6       | 0.1              | 12      | 0.5              |
+| 7       | 0.1              | 14      | 0.5              |
+| 8       | 0.5              | 16      | 0.5              |
+| 9       | 0.2              | 18      | 1                |
+| 10      | 0.5              | 20      | 1                |
+
+ The plot can be found as _plot.png_ , which is also the default output figure name.
+
+![](/plot.png)
+
